@@ -1,0 +1,16 @@
+{
+  "name": "foo",
+  "version": "1.2.3",
+  "description": "A packaged foo fooer for fooing foos",
+  "main": "foo.js",
+  "devDependencies": {
+    "nodemon": "1.17.1"
+  },
+  "scripts": {
+    "start": "node foo.js",
+    "dev": "nodemon foo.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
